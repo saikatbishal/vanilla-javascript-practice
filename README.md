@@ -1,0 +1,1 @@
+## A repository containing all my practice javascript files. I made this file to make a few web development projects using vanilla javascript before I try learning front-end or back-end libraries like node, angular or react.
