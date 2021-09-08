@@ -1,0 +1,39 @@
+# let's write some yaml
+
+
+courses:
+  course_name: &course_name_variable "GFPGAN machine learning course"
+  version: 1.5
+  price: &this_is_a_variable_now 199
+  is_public: true
+  release_date: 2021-09-05 12:20:20
+  pre_enroll: null
+  tags:
+    - python
+    - machine learning
+    - computer vision
+  course_ta: ["yash", "ashwani", "saikat"]
+  ta_details:
+    - name: "yash"
+      email: "yesprasad@gmail.com"
+      role: "course instructor"
+    - name: "ashwani"
+      email: "jhaashwani@gmail.com"
+      role: "discussion admin"
+    - {name: "saikat", email: "saikat@gmail.com", role: "devops"}
+  short_desc: >
+    Here is a short description of
+    machine learning course
+  long_desc: |
+    Now we can store all
+    the indentation and
+    all the related things
+  process_paayment: *this_is_a_variable_now
+
+  adv: &adv
+    mykey: myval
+
+  another_adv:
+    one: 1
+    two: 2
+    <<: *adv
