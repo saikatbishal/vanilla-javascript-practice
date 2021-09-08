@@ -37,3 +37,6 @@ courses:
     one: 1
     two: 2
     <<: *adv
+  yet_another_adv:
+    three: 3
+    <<: *another_adv
