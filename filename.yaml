@@ -1,6 +1,6 @@
 # let's write some yaml
 
-
+---
 courses:
   course_name: &course_name_variable "GFPGAN machine learning course"
   version: 1.5
@@ -40,3 +40,4 @@ courses:
   yet_another_adv:
     three: 3
     <<: *another_adv
+...
